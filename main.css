@@ -32,6 +32,18 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+body:before {
+    content: "under construction";
+    font-family: Monospace;
+    color: green;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 /* ************* _______ end of reset_______ ************* */
 
 .themeWrapper{
